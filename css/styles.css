@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+html{
+  scroll-behavior: smooth;
+}
+body{
+font-family: 'Montserrat';
+}
+#title{
+  background-color: #ff4c68;
+
+
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: lighter;
+}
+h1,h2{
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+
+}
+h2{
+  font-size: 3rem;
+}
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.img img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* features */
+
+#features{
+  background: #fff;
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.box{
+  padding: 5%;
+}
+.box i{
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+#features h3{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.box i:hover{
+  color: #ff4c68;
+}
+#features p{
+  color: #8f8f8f;
+  font-weight: lighter;
+  font-size: 0.9rem
+}
+
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+#testimonials img{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+#testimonials em{
+  color:  #EEEEEE;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press */
+#press{
+  text-align: center;
+  background-color: #ef8172;
+}
+#press > img{
+  width: 20%;
+  padding: 50px;
+}
+/* pricing */
+#pricing h2{
+  color: black;
+  font-size: 2.5rem;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.card-st{
+  padding: 3% 2%;
+}
+.btn-outline-primary{
+  color: black;
+  border-color: #ef8172;
+}
+.btn-outline-primary:hover{
+    color: #fff;
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ef8172;
+    border-color: #ef8172;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+/* cta */
+#cta{
+  background: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 9% 15%;
+}
+#cta h3{
+  font-weight: 5000;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 5% 10%;
+}
+#footer i{
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+#footer p{
+  color: #8f8f8f;
+}
+#footer i:hover{
+  color: #ff4c68;
+}
+
+@media (max-width:900px) {
+  #title{
+    text-align: center;
+  }
+  .img img{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
